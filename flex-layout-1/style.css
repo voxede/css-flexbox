@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: lightgreen;
+    border: 4px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin-top: 10%;
+}
+
+.header-container {
+    background-color: lightblue;
+    border: 4px solid blue;
+    margin: 20px;
+    display: flex;
+    /*flex-grow: 1;*/
+    justify-content: space-around;
+}
+
+.header-box1 {
+    background-color: lightpink;
+    border: 4px solid rgb(205, 171, 177);
+    height: 76px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.header-box2 {
+    background-color: lightpink;
+    border: 4px solid rgb(205, 171, 177);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 4px;
+}
+
+.box-in-header-box {
+    background-color: rgb(173, 100, 100);
+    border: 4px solid rgb(77, 25, 25);
+    width: 138px;
+    height: 100%;
+}
+
+.body-container {
+    display: flex;
+    height: 200px;
+    margin: 0 20px;
+    gap: 10px;
+}
+
+.left-panel {
+    background-color: lightgrey;
+    border: 4px solid gray;
+    width: 50%;
+}
+
+.right-panel-container {
+    /*background-color:lightseagreen;
+    border: 4px solid darkcyan;*/
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-panel-box {
+    background-color: blueviolet;
+    border: 4px solid darkgoldenrod;
+    height: 50%;
+}
+
+.footer-container {
+    background-color: lightblue;
+    border: 4px solid blue;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px 20px;
+    gap: 8px;
+}
+
+.footer-box1 {
+    background-color: lightcoral;
+    border: 4px solid rgb(125, 62, 39);
+    height: 80px;
+    width: 270px;
+}
+
+.footer-box2 {
+    background-color: chocolate;
+    border: 4px solid rgb(103, 54, 19);
+    height: 80px;
+    width: 170px;
+}
