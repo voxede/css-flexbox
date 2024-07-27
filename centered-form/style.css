@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.centered-form {
+  background-color: lightblue;
+  border: 4px solid blue;
+  border-radius: 4px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.centered-form label {
+  display: block;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.centered-form input {
+  width: 100%;
+  height: 44px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+
+.centered-form button {
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  height: 44px;
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: green;
+  cursor: pointer;
+}
+
+.centered-form input:hover {
+  border: 4px solid gray;
+}
+
+.centered-form button:hover {
+  border: 4px solid darkgreen;
+}
