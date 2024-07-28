@@ -104,6 +104,11 @@
     align-items: center
 }
 
+.profile-container {
+    background-color: lightblue;
+    height: 50vh;
+}
+
 footer {
     background-color: blueviolet;
     height: 10vh;
