@@ -12,18 +12,22 @@
     </header>
     <nav class="login-navbar">
         <ul>
-            <li><a href="registro.html">Registrarse</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="recuperar-clave.html">Recuperar Clave</a></li>
             <li><a href="#">Ayuda</a></li>
         </ul>
     </nav>
     <section class="login-form-section">
         <form class="login-form" action="">
-            <h1>Ingresar</h1>
+            <h1>Registrarse</h1>
             <label for="user">Usuario:</label>
-            <input type="text" name="user" id="user">
+            <input type="text" name="user" id="user" required>
             <label for="pass">Clave:</label>
-            <input type="password" name="pass" id="pass">
+            <input type="password" name="pass" id="pass" required>
+            <label for="pass">Repetir clave:</label>
+            <input type="password" name="pass" id="pass" required>
+            <label for="mail">Email:</label>
+            <input type="email" name="mail" id="mail" required>
             <button type="submit">Entrar</button>
         </form>
     </section>

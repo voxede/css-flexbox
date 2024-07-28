@@ -18,17 +18,34 @@
 
 .login-navbar {
     background-color: aquamarine;
-    height: 5vh;
+    height: 8vh;
 }
 
 .login-navbar ul {
-    background-color: beige;
+    background-color: rgb(19, 190, 34);
     list-style-type: none;
     height: 100%;
     width: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.login-navbar li {
+    /*background-color: lightslategray;*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.login-navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.login-navbar ul li a:hover {
+    font-weight: bold;
 }
 
 .login-form-section {
@@ -46,6 +63,10 @@
     background-color: burlywood;
     width: 40vw;
     padding: 1%;
+}
+
+.login-form h1 {
+    text-align: center;
 }
 
 .login-form label {
