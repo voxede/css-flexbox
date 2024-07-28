@@ -96,6 +96,14 @@
     cursor: pointer;
 }
 
+.home-feed {
+    background-color:lightgrey;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
 footer {
     background-color: blueviolet;
     height: 10vh;
