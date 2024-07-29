@@ -79,7 +79,7 @@
     border: 2px solid black;
     border-radius: 4px;
     width: 100%;
-    height: 6.8vh;
+    height: 6vh;
 }
 
 .login-form button {
@@ -106,7 +106,17 @@
 
 .profile-container {
     background-color: lightblue;
+    width: 100%;
     height: 50vh;
+    display: flex;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-image {
+  flex-grow: 1;
 }
 
 footer {
