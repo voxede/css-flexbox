@@ -122,6 +122,24 @@
   flex-grow: 1;
 }
 
+.gallery-navigation-tab {
+  background-color: blue;
+  height: 6vh;
+  display: flex;
+}
+
+.gallery-navigation-tab a {
+  background-color: grey;
+  border: 1px solid black;
+  width: 14vw;
+  text-align: center;
+  line-height: 6vh;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 footer {
     background-color: blueviolet;
     height: 10vh;
