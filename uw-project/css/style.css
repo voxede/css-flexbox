@@ -126,6 +126,7 @@
   background-color: blue;
   height: 6vh;
   display: flex;
+  justify-content: center;
 }
 
 .gallery-navigation-tab a {
@@ -138,6 +139,16 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.gallery-navigation-tab a:hover {
+    background-color: darkgrey;
+}
+
+.image-container {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
